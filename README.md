@@ -1,7 +1,11 @@
-# Comicvines
+# Comicvines overview
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
-
+the project is giving overview of rick and morty cartoon characters
+please run the following command 
+npm install 
+ng serve 
+after this a localhost will be generated
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
