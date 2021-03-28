@@ -6,6 +6,8 @@ please run the following command
 npm install 
 ng serve 
 after this a localhost will be generated
+Things done : hompage containing characters , Paginated and search box is provided, meaningful varriables
+Things yet to be completed : commenting the codes 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
