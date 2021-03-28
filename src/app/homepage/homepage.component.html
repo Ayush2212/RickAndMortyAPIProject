@@ -1,0 +1,23 @@
+<main>
+    <h1 class="heading-primary">Trending Heros</h1>
+
+    <div class="row">
+        <div class="col" *ngFor='let character of characters'>
+            <div class="card" style="width: 18rem;">
+                <img [src]="character.image" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">{{character.name}}</h5>
+                    <p class="card-text">{{character.origin.name}}</p>
+                    <p class="card-text">{{character.species}}</p>
+                    <p class="card-text">{{character.status}}</p>
+                    <a href="#" routerLink="/details/{{character.id}}" class="btn btn-primary">Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="pagination-main">
+        <ul class="pagination">
+          <li class="page-item" *ngFor='let i of numobj' (click)="handlePageClick(i)"><a class="page-link">{{i}}</a></li>
+        </ul>
+      </nav>
+</main>

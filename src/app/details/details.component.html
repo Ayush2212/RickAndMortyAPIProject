@@ -1,0 +1,14 @@
+<div class="row1" *ngIf='character'>
+    <div class="column">
+      <img [src]="character.image" class="img-thumbnail" alt="...">
+      <ul class="list-group">
+          <li class="list-group-item active" aria-current="true">{{character.id}}</li>
+          <li class="list-group-item">{{character.name}}</li>
+          <li class="list-group-item">{{character.status}}</li>
+          <li class="list-group-item">{{character.species}}</li>
+          <li class="list-group-item">{{character.origin.name}}</li>
+          <li class="list-group-item">{{character.gender}}</li>
+          <li class="list-group-item">{{character.location.name}}</li>
+        </ul>
+    </div>
+</div>

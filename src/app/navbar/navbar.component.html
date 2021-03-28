@@ -1,0 +1,12 @@
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand">Comic Vines</a>
+            <div class="d-flex">
+                <input class="form-control me-2" placeholder="Search" [(ngModel)]="query">
+                <button class="btn btn-outline-success" (click)="handleSearch()" type="submit">Search</button>
+            </div>
+        </div>
+    </nav>
+</header>
+<app-homepage [query]='query'></app-homepage>
