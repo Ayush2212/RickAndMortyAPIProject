@@ -12,7 +12,7 @@ export class NavbarComponent implements OnInit {
 
   @ViewChild(HomepageComponent) home: HomepageComponent
 
-  query: string = null;
+  query: string = null
   ngOnInit(): void {}
   handleSearch() {
     this.home.handleQuery()
